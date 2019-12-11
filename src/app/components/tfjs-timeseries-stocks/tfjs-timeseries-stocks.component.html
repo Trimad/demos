@@ -1,6 +1,4 @@
 <h1>Time Series Forecasting with TensorFlow.js</h1>
-<p>Pull stock prices from online API and perform predictions using Recurrent Neural Network and Long Short-Term Memory (LSTM) with TensorFlow.js framework. <a href="https://towardsdatascience.com/time-series-forecasting-with-tensorflow-js-1efd48ff2201" target="_blank">Read on Medium</a></p>
-
 <mat-card>
   <mat-card-header>
     <mat-card-title><h1>Introduction</h1></mat-card-title>
@@ -60,21 +58,14 @@
 
           <h2>Try It</h2>
 
-          <p>
-            <!-- [how to use, what you want your reader to do after you end, as simple and obvious] -->
-            Use <i>demo</i> API key to fetch <i>Microsoft Corporation</i> prices or <a href="https://www.alphavantage.co/support/#api-key" target="_blank">get your own API key</a> for other stocks.
-          </p>
-
           <mat-form-field appearance="outline">
             <mat-label>Ticker Symbol</mat-label>
             <input matInput placeholder="example: MSFT" [(ngModel)]='input_ticker'>
-            <mat-hint>Demo API key only allows 'MSFT'</mat-hint>
           </mat-form-field>
 
           <mat-form-field appearance="outline">
             <mat-label>Alpha Vantage API Key</mat-label>
             <input matInput placeholder="Input your API key or use 'demo'" [(ngModel)]='input_apikey'>
-            <mat-hint>You can claim your API key from <a href="https://www.alphavantage.co/support/#api-key" target="_blank">alphavantage.co</a></mat-hint>
           </mat-form-field>
 
           <mat-form-field appearance="outline">
